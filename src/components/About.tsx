@@ -109,7 +109,7 @@ export const About: React.FC = () => {
               <div className="flex items-center gap-4 mb-5">
                 <div className="relative">
                   <img
-                    src="/assets/images/jaffar.jpeg"
+                    src={`${import.meta.env.BASE_URL}assets/images/jaffar.jpeg`}
                     alt="Jaffar Mala"
                     className="w-16 h-16 sm:w-20 sm:h-20 rounded-xl object-cover border border-[#DFDFD6] shadow-sm"
                     onError={(e) => {

@@ -263,7 +263,7 @@ export const FEATURED_PROJECTS: Project[] = [
     links: {
       github: "https://github.com/Jaffar1101/Deep_Check"
     },
-    image: "/assets/images/deepcheck-logo.png",
+    image: `${import.meta.env.BASE_URL}assets/images/deepcheck-logo.png`,
     imageAlt: "DeepCheck Logo and Platform"
   },
   {
@@ -364,7 +364,7 @@ export const FEATURED_PROJECTS: Project[] = [
       badge: "University Research Convention"
     },
     links: {},
-    image: "/assets/images/robot.png",
+    image: `${import.meta.env.BASE_URL}assets/images/robot.png`,
     imageAlt: "AFRR Agro Fire Rescue Robot Chassis Prototype"
   }
 ];
